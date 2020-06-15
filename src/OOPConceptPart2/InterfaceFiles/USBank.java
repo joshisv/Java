@@ -1,0 +1,26 @@
+package OOPConceptPart2.InterfaceFiles;
+
+public interface USBank {
+	
+	// Interface uses keyword interface
+	
+	/* Properties of an interface
+	 * Only method declarations in interface
+	 * No method body -- only prototypes
+	 * In interface, we can declare variables which are static and final by default
+	 * Variable value can't be change since it is static.
+	 * Static method are NOT allowed in interface.
+	 * No main method in interface.
+	 * We CAN NOT create an object of an interface.
+	 * Interfaces are abstract in nature.
+	 */
+	
+	int min_balance = 100;
+	
+	public void credit();
+	
+	public void debit();
+	
+	public void moneyTransfer();
+
+}
